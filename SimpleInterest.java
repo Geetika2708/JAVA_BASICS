@@ -8,10 +8,10 @@ public class SimpleInterest{
     System.out.println("enter principal :");
     int principal = sc.nextInt();
     System.out.println("enter rate : ");
-    int rate = sc.nextInt();
+    float rate = sc.nextFloat();
     System.out.println("enter time :");
-    int time = sc.nextInt();
-    int simple_interest = principal*rate/time;
+    float time = sc.nextFloat();
+    float simple_interest = principal*rate/time;
     System.out.println("simple interest is  :"+ simple_interest);
   }
 }
