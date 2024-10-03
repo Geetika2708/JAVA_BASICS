@@ -11,7 +11,7 @@ public class SimpleInterest{
     float rate = sc.nextFloat();
     System.out.println("enter time :");
     float time = sc.nextFloat();
-    float simple_interest = principal*rate/time;
+    float simple_interest = principal*rate*time/100;
     System.out.println("simple interest is  :"+ simple_interest);
   }
 }
